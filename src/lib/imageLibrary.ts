@@ -5,9 +5,10 @@ export interface StockImageItem {
 }
 
 export const EXISTING_IMAGE_LIBRARY: StockImageItem[] = [
-  // Approved Real Wolf Ridge Photos
-  { src: '/images/lone-wolf/hero_tile_top.jpg', name: 'Wolf Ridge Container (Hero Top Tile)', category: 'real' },
-  { src: '/images/lone-wolf/hero_tile_bottom.jpg', name: 'Wolf Ridge Fleet Lineup (Hero Bottom Tile)', category: 'real' },
+  // Approved Real Photography
+  { src: '/images/lone-wolf/hero_tile_top.jpg', name: 'Wayne Standing with Dumpsters (Hero Top Tile)', category: 'real' },
+  { src: '/images/lone-wolf/hero_tile_bottom.jpg', name: 'Wide Fleet & Property Photo - IMG_1287 (Hero Bottom Tile)', category: 'real' },
+  { src: '/images/lone-wolf/IMG_1287.jpeg', name: 'Raw Fleet & Property Photo (IMG_1287)', category: 'real' },
 
   // Approved Hero & Core Identity Set
   { src: '/images/lone-wolf/lone_wolf_hero_top.png', name: 'Approved Main Hero - Truck & Dumpster', category: 'real' },

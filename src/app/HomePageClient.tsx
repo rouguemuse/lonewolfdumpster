@@ -128,10 +128,10 @@ export default function HomePageClient() {
         headlineRed={hp.heroHeadlineRed || 'DUMPSTER RENTALS ACROSS DFW'}
         description={hp.heroDescription || 'Dumpsters for cleanouts, remodels, construction, roofing, and more — delivered across DFW.'}
         showRating={true}
-        heroTopImageSrc={hp.heroTopImage?.src || '/images/lone-wolf/lone_wolf_hero_top.png'}
-        heroTopImageAlt={hp.heroTopImage?.alt || 'Wolf Ridge roll-off dumpster on Texas driveway'}
-        heroBottomImageSrc={hp.heroBottomImage?.src || '/images/lone-wolf/real/residential_landscape_full.jpg'}
-        heroBottomImageAlt={hp.heroBottomImage?.alt || 'Wolf Ridge roll-off dumpster placed on residential driveway in DFW'}
+        heroTopImageSrc={hp.heroTopImage?.src || '/images/lone-wolf/hero_tile_top.jpg'}
+        heroTopImageAlt={hp.heroTopImage?.alt || 'Wayne standing with roll-off dumpsters in Colleyville yard'}
+        heroBottomImageSrc={hp.heroBottomImage?.src || '/images/lone-wolf/hero_tile_bottom.jpg'}
+        heroBottomImageAlt={hp.heroBottomImage?.alt || 'Wide roll-off dumpster fleet and property ready for delivery across DFW'}
         trustItems={heroTrustItems}
       />
 

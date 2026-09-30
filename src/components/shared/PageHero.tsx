@@ -46,10 +46,10 @@ export const PageHero: React.FC<PageHeroProps> = ({
   description,
   imageSrc = '/images/lone-wolf/lone_wolf_hero_top.png',
   imageAlt = 'Wolf Ridge Dumpsters roll-off dumpster serving the Dallas-Fort Worth area',
-  heroTopImageSrc = '/images/lone-wolf/lone_wolf_hero_top.png',
-  heroTopImageAlt = 'Wolf Ridge roll-off dumpster on Texas driveway',
-  heroBottomImageSrc = '/images/lone-wolf/real/residential_landscape_full.jpg',
-  heroBottomImageAlt = 'Wolf Ridge roll-off dumpster placed on residential driveway in DFW',
+  heroTopImageSrc = '/images/lone-wolf/hero_tile_top.jpg',
+  heroTopImageAlt = 'Wayne standing with roll-off dumpsters in Colleyville yard',
+  heroBottomImageSrc = '/images/lone-wolf/hero_tile_bottom.jpg',
+  heroBottomImageAlt = 'Wide roll-off dumpster fleet and property ready for delivery across DFW',
   showRating = false,
   trustItems,
   badgeText,
@@ -329,8 +329,8 @@ export const PageHero: React.FC<PageHeroProps> = ({
                 }}
               >
                 <Image
-                  src={heroTopImageSrc || '/images/lone-wolf/lone_wolf_hero_top.png'}
-                  alt={heroTopImageAlt || 'Wolf Ridge roll-off dumpster on Texas driveway'}
+                  src={heroTopImageSrc || '/images/lone-wolf/hero_tile_top.jpg'}
+                  alt={heroTopImageAlt || 'Wayne standing with roll-off dumpsters in Colleyville yard'}
                   fill
                   priority
                   loading="eager"
@@ -364,10 +364,9 @@ export const PageHero: React.FC<PageHeroProps> = ({
               >
                 <Image
                   src={heroBottomImageSrc || '/images/lone-wolf/hero_tile_bottom.jpg'}
-                  alt={heroBottomImageAlt || 'Wolf Ridge dumpsters fleet ready for delivery across DFW'}
+                  alt={heroBottomImageAlt || 'Wide roll-off dumpster fleet and property ready for delivery across DFW'}
                   fill
-                  priority
-                  loading="eager"
+                  loading="lazy"
                   sizes="(max-width: 768px) 100vw, (max-width: 1440px) 50vw, 680px"
                   style={{ objectFit: 'cover', objectPosition: 'center center' }}
                 />
