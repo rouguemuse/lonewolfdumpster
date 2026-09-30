@@ -493,7 +493,7 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
     introTitle: "WELCOME TO WOLF RIDGE DUMPSTERS",
     introDescription: "Dallas-Fort Worth's local owner-operator roll-off dumpster service. Upfront flat-rate pricing, 5.0 Google rating, driveway-safe delivery.",
     heroTopImage: {
-      src: "/images/lone-wolf/hero_tile_top.jpg",
+      src: "/images/lone-wolf/lone_wolf_hero_top.png",
       alt: "Wolf Ridge roll-off dumpster on Texas driveway",
       position: "center center"
     },
@@ -503,7 +503,7 @@ export const DEFAULT_SITE_CONTENT: SiteContent = {
       position: "center center"
     },
     heroImage: {
-      src: "/images/lone-wolf/hero_tile_top.jpg",
+      src: "/images/lone-wolf/lone_wolf_hero_top.png",
       alt: "Wolf Ridge roll-off dumpster fleet in Colleyville yard",
       position: "center center"
     },

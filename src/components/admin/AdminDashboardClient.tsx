@@ -1668,7 +1668,7 @@ export default function AdminDashboardClient() {
 
                   <div style={{ position: 'relative', width: '100%', aspectRatio: '16 / 7.8', borderRadius: '6px', overflow: 'hidden', border: '1px solid #334155', backgroundColor: '#0a0d14' }}>
                     <Image
-                      src={siteContent.homepage?.heroTopImage?.src || '/images/lone-wolf/hero_tile_top.jpg'}
+                      src={siteContent.homepage?.heroTopImage?.src || '/images/lone-wolf/lone_wolf_hero_top.png'}
                       alt={siteContent.homepage?.heroTopImage?.alt || 'Top Hero Image'}
                       fill
                       style={{ objectFit: 'cover' }}

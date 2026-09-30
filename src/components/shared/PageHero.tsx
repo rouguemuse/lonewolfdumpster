@@ -46,7 +46,7 @@ export const PageHero: React.FC<PageHeroProps> = ({
   description,
   imageSrc = '/images/lone-wolf/lone_wolf_hero_top.png',
   imageAlt = 'Wolf Ridge Dumpsters roll-off dumpster serving the Dallas-Fort Worth area',
-  heroTopImageSrc = '/images/lone-wolf/hero_tile_top.jpg',
+  heroTopImageSrc = '/images/lone-wolf/lone_wolf_hero_top.png',
   heroTopImageAlt = 'Wolf Ridge roll-off dumpster on Texas driveway',
   heroBottomImageSrc = '/images/lone-wolf/real/residential_landscape_full.jpg',
   heroBottomImageAlt = 'Wolf Ridge roll-off dumpster placed on residential driveway in DFW',
@@ -329,7 +329,7 @@ export const PageHero: React.FC<PageHeroProps> = ({
                 }}
               >
                 <Image
-                  src={heroTopImageSrc || '/images/lone-wolf/hero_tile_top.jpg'}
+                  src={heroTopImageSrc || '/images/lone-wolf/lone_wolf_hero_top.png'}
                   alt={heroTopImageAlt || 'Wolf Ridge roll-off dumpster on Texas driveway'}
                   fill
                   priority
